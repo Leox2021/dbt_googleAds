@@ -1,0 +1,16 @@
+BigQuery Optional Settings
+
+LOCATION: europe-west3 
+
+JOB EXECUTION TIMEOUT SECONDS:  300
+
+JOB RETRIES: 1
+-------
+
+Development Credentials
+
+DATASET: dbt_tiendas_gads
+// In development, dbt will build your models into a dataset with this name. This dataset name should be unique to your personal development environment 
+and should not be shared by other members of your team.
+
+TARGET NAME: tiendas_gads_bigquery
